@@ -3,6 +3,8 @@
 @media screen and (max-width: 480px) {
     #header-logo{display: none;}
     .header{justify-content: center;}
+
+    section.projeto{flex-direction: row;}
  
  }
  /* SMALL DEVICES - TABLETS*/
