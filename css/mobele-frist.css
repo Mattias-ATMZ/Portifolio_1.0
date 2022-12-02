@@ -1,0 +1,80 @@
+/* ========== MOBILE FIRST ==========*/
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 480px) {
+    #header-logo{display: none;}
+    .header{justify-content: center;}
+ 
+ }
+ /* SMALL DEVICES - TABLETS*/
+ @media screen and (min-width: 768px) {
+
+    section.introducao{
+        flex-direction: row;
+    }
+    .c1-button{
+        flex-direction: column;
+    }
+    .c1-title{
+        font-weight: 700;
+        font-size: 80px;
+    }
+    .c1-paragraph{
+        font-size: 20px;
+    }
+    .c1-image{
+        height: 110px;
+        width: 110px;
+    }
+    .c1-button-linkedin{
+        width: 170px;
+        height: 50px;
+    }
+    .c1-button-github{
+        width: 170px;
+        height: 50px;
+    }
+    .c3-items{
+        flex-direction: row;
+        gap: 30px;
+    }
+    .projeto-item{
+        width: 200px;
+        height: 200px;
+    }
+ }
+ /* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+ @media screen and (min-width: 960px) {
+    section.sobre{
+        flex-direction: row;
+    }
+
+    .c2-text-hello-w{
+        display: block;
+        font-size: 100px;
+        color: #5f5f5f;
+    }
+    .c2-text{
+        width: 500px;
+        height: 350px;
+    }
+    .c2-text p{
+        font-size: 15px;
+    }
+    .c2-title{
+        font-size: 20px;
+        font-weight: bold;
+        color: #8f8f8f;
+    }
+    footer{
+        flex-direction: row;
+        gap: 30px;
+    }
+ }
+ /* LARGE DEVICES - WIDE SCREENS*/
+ @media screen and (min-width: 1280px) {
+    .projeto-item{
+        width: 250px;
+        height: 250px;
+    }
+
+ }

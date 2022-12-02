@@ -1,0 +1,38 @@
+section.sobre{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.c2-text-hello-w{
+    display: none;
+}
+.c2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    gap: 20px;
+    text-indent: 10px;
+    color: #8f8f8f;
+    width: 320px;
+    height: 350px;
+
+}
+.c2 p{
+    font-size: 18px;
+}
+.c2-title{
+    font-weight: bold;
+    color: #8f8f8f;
+}
+.c2-link-github-p{
+    color: #03989E;
+}
+.c2-link-github-p:hover{
+    color:#FFBD59;
+    transition: .5s;
+}
